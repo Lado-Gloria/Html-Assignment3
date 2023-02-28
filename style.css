@@ -139,17 +139,28 @@ top: 40px;
 }
 .need{
     position: relative;
-    bottom: 180px;
+    bottom: 150px;
     right: 200px;
     text-align: center;
     border-radius: 50%;
     background-color:bisque;
-    width: 70%;
-    height:500px; 
+    width: 40%;
+    height:300px; 
+    left: 10%;
 
 
 
 
+
+}
+.all{
+    position: relative;
+    top: 25px;
+}
+#hello1{
+    width: 15px;
+    position: relative;
+    bottom: 25px;
 }
 .lattest{
     text-align: center;
@@ -163,4 +174,24 @@ top: 40px;
 }
 #bt{
     background-color: burlywood;
+}
+.general{
+    display: flex;
+}
+
+#camera1{
+
+    width: 10px;
+}
+#camera2{
+    width: 10px;
+
+}
+#camera3{
+    width: 10px;
+
+}
+footer{
+    background-color: darkslateblue;
+    color: white;
 }
