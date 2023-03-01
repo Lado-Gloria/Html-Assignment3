@@ -1,16 +1,19 @@
 .home{
-    background-image: url(images/image.png);
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/image.png);
+
     background-size: cover;
     height: 500px;
     background-repeat: no-repeat;
+    
+    
 
 }
 #ome{
-    color: darkgoldenrod;
+    color: #ffac7d;
 }
 .wide{
     text-align: center;
-    padding-top: 9%;
+    padding-top: 5%;
     font-weight: bold;
     color: azure;
 }
@@ -22,7 +25,7 @@
 }
 #next{
     margin-left: 45%;
-    background-color: darkgoldenrod;
+    background-color: #ffac7d;
 }
 #holder{
     margin-left: 40%;
@@ -62,7 +65,7 @@ top: 35px;
     position: relative;
     right: 35%;
     top: 30px;
-    background-color: darkgoldenrod;
+    background-color: #ffac7d;
     border-radius: 5%;
 }
 .scan{
@@ -70,7 +73,7 @@ top: 35px;
 
 }
 #mod{
-    background-color: darkgoldenrod;
+    background-color: #ffac7d;
 
 }
 #sic{
@@ -82,15 +85,14 @@ top: 35px;
 
 }
 .visual{
-    background-color: darkblue;
+    background-color: #002d3d;
     position: relative;
     top: 40px;
     height: 300px;
     
-
-
-    
-
+}
+#popu{
+    color: #ffac7d;
 }
 #room2{
     width: 23%;
@@ -118,17 +120,19 @@ top: 35px;
     
 }
 #all{
-background-color: darkgoldenrod;
+background-color: #ffac7d;
 position: relative;
 right: 400px;
 top: 40px;
+border-radius: 10px;
 }
 .des{
     position: relative;
     left: 15%;
 }
 .inspire{
-    background-color: darksalmon;
+    background-color: #ffe5d6;
+    height: 400px;
 }
 #img1{
 
@@ -139,23 +143,21 @@ top: 40px;
 }
 .need{
     position: relative;
-    bottom: 150px;
+    bottom: 190px;
     right: 200px;
     text-align: center;
     border-radius: 50%;
-    background-color:bisque;
-    width: 40%;
+    background-color:#f8d6c3;
+    width: 35%;
     height:300px; 
     left: 10%;
-
-
-
-
 
 }
 .all{
     position: relative;
-    top: 25px;
+    top: 30px;
+    font-size: small;
+
 }
 #hello1{
     width: 15px;
@@ -164,19 +166,21 @@ top: 40px;
 }
 .lattest{
     text-align: center;
+    height: 200px;
 }
 .under{
     text-decoration: underline;
 }
-.policy{
-    text-align: center;
-    background-color: darkblue;
-}
+
+
 #bt{
-    background-color: burlywood;
+    background-color:#ffac7d;
+    border-radius: 4px;
 }
 .general{
     display: flex;
+    position: relative;
+    left: 50px;
 }
 
 #camera1{
@@ -192,6 +196,25 @@ top: 40px;
 
 }
 footer{
-    background-color: darkslateblue;
+    background-color:#002d3d;
     color: white;
+    
+}
+#mo{
+    width: 500px;
+    position: relative;
+    right: 20%;
+}
+#toy{
+    width: 15px;
+
+}
+#lo{
+    width: 15px;
+    
+}
+.alter{
+    position: relative;
+    left: 70%;
+    top:40px ;
 }
