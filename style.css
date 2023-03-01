@@ -1,10 +1,11 @@
-
+body
 .home{
     background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/image.png);
 
     background-size: cover;
     height: 500px;
     background-repeat: no-repeat;
+    
     
 }
 #conta{
@@ -14,9 +15,11 @@
 }
 #holder2{
     height:20px; 
-    margin:0; 
+
     padding-left: 30px;
     position: relative;
+    border-radius: 8px;
+    background-color: bisque;
 
 }
 #icon1{
@@ -102,7 +105,7 @@ top: 35px;
     right: 35%;
     top: 30px;
     background-color: #ffac7d;
-    border-radius: 5%;
+    border-radius: 7px;
 }
 .scan{
     display: flex;
@@ -243,6 +246,10 @@ footer{
     width: 500px;
     position: relative;
     right: 20%;
+    border-color: #f8d6c3;
+    background-color: #f8d6c3;
+    bottom: 25px;
+
 }
 #toy{
     width: 15px;
@@ -256,6 +263,13 @@ footer{
 }
 .alter{
     position: relative;
+    
+
+}
+.alter{
+    display: flex;
+    position: relative;
     left: 70%;
-    top:40px ;
+    color: aliceblue;
+    top: 7%;
 }
