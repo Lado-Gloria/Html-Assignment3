@@ -1,11 +1,46 @@
+
 .home{
-    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/image.png);
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/image.png);
 
     background-size: cover;
     height: 500px;
     background-repeat: no-repeat;
     
-    
+}
+#conta{
+    position:relative; 
+    left: 40%; 
+    bottom: 7%;
+}
+#holder2{
+    height:20px; 
+    margin:0; 
+    padding-left: 30px;
+    position: relative;
+
+}
+#icon1{
+    position:absolute; 
+    bottom:12px; 
+    left:10px; 
+    width:10px;
+     height:10px; 
+
+}
+#icon2{
+    position:absolute; 
+    bottom:12px;
+     left:150px;
+      width:10px;
+       height:10px; 
+
+}
+#icon3{
+    position:absolute;
+     bottom:12px; 
+     left:180px;
+      width:10px; 
+      height:10px; 
 
 }
 #ome{
@@ -26,6 +61,7 @@
 #next{
     margin-left: 45%;
     background-color: #ffac7d;
+    border-radius: 10px;
 }
 #holder{
     margin-left: 40%;
@@ -73,7 +109,7 @@ top: 35px;
 
 }
 #mod{
-    background-color: #ffac7d;
+    background-color:#ffe5d6;
 
 }
 #sic{
@@ -123,7 +159,7 @@ top: 35px;
 background-color: #ffac7d;
 position: relative;
 right: 400px;
-top: 40px;
+top: 50px;
 border-radius: 10px;
 }
 .des{
@@ -162,7 +198,10 @@ border-radius: 10px;
 #hello1{
     width: 15px;
     position: relative;
-    bottom: 25px;
+    
+}
+#magni{
+    width: 15px;
 }
 .lattest{
     text-align: center;
@@ -208,9 +247,11 @@ footer{
 #toy{
     width: 15px;
 
+
 }
 #lo{
     width: 15px;
+    color: white;
     
 }
 .alter{
