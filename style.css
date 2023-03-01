@@ -113,6 +113,8 @@ top: 35px;
 }
 #mod{
     background-color:#ffe5d6;
+    border-radius: 5px;
+    width: 15%;
 
 }
 #sic{
@@ -249,21 +251,6 @@ footer{
     border-color: #f8d6c3;
     background-color: #f8d6c3;
     bottom: 25px;
-
-}
-#toy{
-    width: 15px;
-
-
-}
-#lo{
-    width: 15px;
-    color: white;
-    
-}
-.alter{
-    position: relative;
-    
 
 }
 .alter{
