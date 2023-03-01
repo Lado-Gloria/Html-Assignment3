@@ -12,6 +12,7 @@
     position:relative; 
     left: 40%; 
     bottom: 7%;
+    color:rgb(100, 81, 81);
 }
 #holder2{
     height:20px; 
@@ -86,6 +87,7 @@ top: 35px;
 .explo{
     position: relative;
     left: 20%;
+    bottom: 20%;
 }
 #kit{
     width: 18%;
